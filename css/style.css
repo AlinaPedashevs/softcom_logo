@@ -1,0 +1,307 @@
+
+#logo{
+  display: block;
+}
+  @keyframes example {
+  0% {
+      opacity: 1;
+    }
+  
+    25% {
+     opacity: 0.8;
+    }
+  
+    50% {
+      opacity: 0.3;
+    }
+  
+    75% {
+      opacity: 0.8;
+    }
+  
+    100% {
+    opacity: 1;
+    }
+}
+
+.fill-color{
+fill: black;
+animation-name: example;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+}
+
+.blick{
+  position: relative;
+  overflow: hidden;
+  max-width: 275px;
+  animation-iteration-count: infinite;
+}
+
+ .blick:after {
+   content: "";
+   display: block;
+   width: 15px;
+   height: 300px;
+   margin-left: 50px;
+   background: #fff;
+   background: linear-gradient(to bottom,
+       rgba(255, 255, 255, 0.5) 0%,
+       rgba(255, 255, 255, 1) 50%,
+       rgba(255, 255, 255, 0.5) 100%);
+   left: -40px;
+   top: -100px;
+   z-index: 1;
+   transform: rotate(90deg);
+   position: absolute;
+   animation: movingFlare 3s ease-in-out 0.15s infinite;
+ }
+
+ @keyframes movingFlare {
+   0% {
+     left: -30px;
+     margin-left: 0px;
+   }
+
+   30% {
+     left: 110%;
+     margin-left: 80px;
+   }
+
+   100% {
+     left: 110%;
+     margin-left: 80px;
+   }
+ }
+
+@keyframes circle {
+  0% {
+      fill: url(#SVGID_2_);
+        opacity: 0.5;
+    }
+  
+    30% {
+      fill: url(#SVGID_2_);
+      opacity: 0.8;
+    }
+
+        50% {
+          fill: url(#SVGID_2_);
+          opacity: 1;
+        }
+
+                70% {
+                  fill: url(#SVGID_2_);
+                  opacity: 0.8;
+                }
+  
+    100% {
+      opacity: 1;
+      
+    }
+}
+
+.logo-circle{
+  animation-name: circle;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  stroke: rgba(0, 0, 0, 0.097);
+}
+
+ @keyframes circle-2 {
+   0% {
+     fill: url(#SVGID_2_);
+     opacity: 0.5;
+   }
+
+   30% {
+     fill: url(#SVGID_2_);
+     opacity: 0.8;
+   }
+
+   50% {
+     fill: url(#SVGID_2_);
+     opacity: 1;
+   }
+
+   70% {
+     fill: url(#SVGID_2_);
+     opacity: 0.8;
+   }
+
+   100% {
+     opacity: 1;
+
+   }
+ }
+
+ .logo-circle-2 {
+   animation-name: circle;
+   animation-iteration-count: infinite;
+   animation-duration: 1.5s;
+   stroke: rgba(0, 0, 0, 0.097);
+ }
+
+    @keyframes circle-3 {
+    0% {
+        fill: url(#SVGID_2_);
+        opacity: 0.5;
+      }
+    
+      30% {
+        fill: url(#SVGID_2_);
+        opacity: 0.8;
+      }
+    
+      50% {
+        fill: url(#SVGID_2_);
+        opacity: 1;
+      }
+    
+      70% {
+        fill: url(#SVGID_2_);
+        opacity: 0.8;
+      }
+    
+      100% {
+        opacity: 1;
+    
+      }
+    }
+  
+    .logo-circle-3 {
+      animation-name: circle;
+      animation-iteration-count: infinite;
+      animation-duration: 1.5s;
+      stroke: rgba(0, 0, 0, 0.097);
+      opacity: 0.5;
+    }
+
+
+     @keyframes circle-4 {
+      0% {
+          transform: rotateY(-91deg);
+          opacity: 0;
+        }
+      
+        50% {
+          opacity: 1;
+        }
+      
+        100% {
+          transform: rotateY(0deg);
+          opacity: 0;
+        }
+     }
+
+    .fill-color-4{
+      animation-name: circle-4;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+    }
+  
+         @keyframes circle-5 {
+           0% {
+            transform: rotateX(-90deg);
+             opacity: 0;
+           }
+    
+           50% {
+             opacity: 1;
+           }
+    
+           100% {
+             transform: rotateX(0deg);
+             opacity: 0;
+           }
+         }
+    
+         .fill-color-5 {
+           animation-name: circle-5;
+           animation-iteration-count: infinite;
+           animation-duration: 2s;
+         }
+
+
+#txt {
+  stroke-width: 0.5px;
+  text-anchor: middle;
+  alignment-baseline: central;
+  fill: black;
+}
+
+
+@keyframes stroke {
+  0% {
+    stroke: rgba(255, 255, 255, 0.655);
+    stroke-width: 0.5px;
+  }
+
+  30% {
+    stroke: rgba(255, 255, 255, 0.633);
+  }
+
+  50% {
+    stroke: rgba(255, 255, 255, 0.62);
+  }
+
+  70% {
+    stroke: rgba(99, 95, 95, 0.743);
+  }
+
+  100% {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 0.3px;
+  }
+}
+
+        .fill-color-6 {
+          fill: black;
+          animation-name: stroke;
+          animation-iteration-count: infinite;
+          animation-duration: 1.5s;
+        }
+
+
+.blick-5{
+  position: relative;
+  overflow: hidden;
+  max-width: 275px;
+  animation-iteration-count: infinite;
+
+}
+
+.blick-5:after{
+  content: "";
+    display: block;
+    width: 30px;
+    height: 300px;
+    margin-left: 50px;
+    background: #fff;
+background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    position: absolute;
+    animation: movingFlare 2s ease-in-out 0.15s infinite;
+}
+
+         @keyframes movingFlare-2 {
+           0% {
+             left: -30px;
+             margin-left: 0px;
+           }
+    
+           30% {
+             left: 110%;
+             margin-left: 80px;
+           }
+    
+           100% {
+             left: 110%;
+             margin-left: 80px;
+           }
+         }
+
+     
